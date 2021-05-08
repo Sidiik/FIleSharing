@@ -1,0 +1,82 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(38, 147, 197);
+  width: 50%;
+  padding: 0.74rem 0.4rem;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+.btn {
+  color: #282a36;
+  font-size: 18px;
+}
+.file {
+  background-color: #ededed;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.345rem 2.9rem;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.name {
+  color: #0675d6;
+  width: 50%;
+}
+.uploaded {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.size {
+  width: 40%;
+}
+.delBtn {
+  width: 10%;
+  background: #ededed;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+.delBtn:hover {
+  color: #ff0000;
+}
+.shareBtn {
+  padding: 0.645rem 1.543rem;
+  background: #3691e0;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 0.34rem rgba(0, 0, 0, 0.432);
+  transition: 0.2s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  margin: 4rem;
+}
+.showBtn {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.shareBtn:hover {
+  background: #2c76b8;
+}
+
+@media (max-width: 800px) {
+  .uploaded {
+    width: 100%;
+  }
+  .file {
+    width: 70%;
+  }
+}
